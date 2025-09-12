@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+[package]
+description = "Update Git Repositories"
+edition = "2024"
+include = [
+  "Cargo.toml",
+  "src/**/*"
+]
+name = "up_repo"
+publish = false
+rust-version = "1.89.0"
+version = "1.0.0"
+
+[[bin]]
+name = "up-repo"
+path = "src/main.rs"
+

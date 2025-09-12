@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+[package]
+description = "System Update Tool"
+edition = "2024"
+include = [
+  "Cargo.toml",
+  "src/**/*"
+]
+name = "system_update_tool"
+publish = false
+rust-version = "1.89.0"
+version = "1.0.0"
+
+[[bin]]
+name = "upt"
+path = "src/main.rs"
+

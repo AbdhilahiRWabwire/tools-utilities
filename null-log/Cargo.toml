@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+[package]
+description = "Clean Logs"
+edition = "2024"
+include = [
+  "Cargo.toml",
+  "src/**/*"
+]
+name = "null_log"
+publish = false
+rust-version = "1.89.0"
+version = "1.0.0"
+
+[[bin]]
+name = "null-log"
+path = "src/main.rs"
+
