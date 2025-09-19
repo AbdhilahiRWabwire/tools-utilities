@@ -30,22 +30,22 @@ pub fn tokenize_arguments() -> ExitCode {
         return ExitCode::FAILURE;
     } else {
         match command_line_arguments[1].trim() {
-            "apt-upgrade" | "--au" => {
+            "au" | "--au" => {
                 upgrade_apt();
             }
-            "dnf-release" | "--dr" => {
+            "dr" | "--dr" => {
                 release_dnf();
             }
-            "dnf-upgrade" | "--du" => {
+            "du" | "--du" => {
                 upgrade_dnf();
             }
             "help" | "--h" => {
                 print_help_message();
             }
-            "snap-refresh" | "--sr" => {
+            "sr" | "--sr" => {
                 refresh_snap();
             }
-            "ubuntu-release" | "--ur" => {
+            "ur" | "--ur" => {
                 release_ubuntu();
             }
             "version" | "--v" => {
