@@ -22,7 +22,7 @@ cargo build --release --target x86_64-unknown-linux-gnu
 
 mv ./target/x86_64-unknown-linux-gnu/release/null-log ./binary
 
-./binary/null-log
+sudo ./binary/null-log
 ```
 
 ## Install System Update Daemon

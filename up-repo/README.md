@@ -21,7 +21,7 @@ cargo build --release --target x86_64-unknown-linux-gnu
 
 mv ./target/x86_64-unknown-linux-gnu/release/up-repo ./binary
 
-./binary/up-repo
+sudo ./binary/up-repo au
 ```
 
 ## Install System Update Daemon
