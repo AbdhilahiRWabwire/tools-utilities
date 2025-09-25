@@ -27,7 +27,7 @@ cargo build --release --target x86_64-unknown-linux-gnu
 
 mv ./target/x86_64-unknown-linux-gnu/release/upt ./binary
 
-./binary/upt
+sudo ./binary/upt --h
 ```
 
 ## Install System Update Daemon
