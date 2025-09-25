@@ -33,6 +33,6 @@ mv ./target/x86_64-unknown-linux-gnu/release/upt ./binary
 ## Install System Update Daemon
 
 ```shell
-sudo install ./upt /usr/local/bin/
+mv ./upt ~/
 ```
 

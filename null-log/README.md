@@ -28,6 +28,6 @@ mv ./target/x86_64-unknown-linux-gnu/release/null-log ./binary
 ## Install System Update Daemon
 
 ```shell
-sudo install ./null-log /usr/local/bin/
+mv ./null-log ~/
 ```
 
