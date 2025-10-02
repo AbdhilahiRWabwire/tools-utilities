@@ -4,22 +4,17 @@
 
 | Command        | Description                      |
 | -------------- | -------------------------------- |
-| au             | APT Upgrade                      |
-| dr             | DNF System Release Upgrade       |
-| du             | DNF Upgrade                      |
+| clean          | Git Garbage Collection           |
+| update         | Git Pull                         |
 | help           | Print Commands and Flags         |
-| sr             | Snap Refresh                     |
-| ur             | Ubuntu System Releade Upgrade    |
 | version        | Print Version Number             |
 
 ## Flags
 
 | Flag | Description                      |
 | ---- | -------------------------------- |
-| --au | APT Upgrade                      |
-| --dr | DNF System Release Upgrade       |
-| --du | DNF Upgrade                      |
+| --c  | Git Garbage Collection           |
+| --u  | Git Pull                         |
 | --h  | Print Commands and Flags         |
-| --sr | Snap Refresh                     |
-| --ur | Ubuntu System Releade Upgrade    |
 | --v  | Print Version Number             |
+
