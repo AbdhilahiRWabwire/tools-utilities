@@ -3,12 +3,12 @@
 
 # Update Repository
 
-Update Tool for Git
+Update Tool for all Git Repositories in a Directory
 
 ## Features
 
-- Git Pull
-- Git Garbage Collection
+- Git Pull in all Git Repositories in a Directory
+- Git Garbage Collection in all Git Repositories in a Directory
 
 ## Build
 
