@@ -1,4 +1,4 @@
-[CLIDoc]: https://github.com/HyaenaTechnologies/configuration/blob/main/upt/documentation/upt.md
+[CLIDoc]: https://github.com/HyaenaTechnologies/tools-utilities/blob/main/upt/documentation/upt.md
 [Rust Language]: https://rust-lang.org
 
 # System Update Tool

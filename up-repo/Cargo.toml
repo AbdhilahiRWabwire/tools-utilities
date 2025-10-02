@@ -2,15 +2,15 @@
 resolver = "2"
 
 [package]
-description = "Update Git Repositories"
+description = "Git Repository Update Tool"
 edition = "2024"
 include = [
   "Cargo.toml",
   "src/**/*"
 ]
-name = "up_repo"
+name = "update_repository"
 publish = false
-rust-version = "1.89.0"
+rust-version = "1.90.0"
 version = "1.0.0"
 
 [[bin]]

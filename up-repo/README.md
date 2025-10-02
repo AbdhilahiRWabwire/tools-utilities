@@ -1,15 +1,18 @@
+[CLIDoc]: https://github.com/HyaenaTechnologies/tools-utilities/blob/main/up-repo/documentation/up-repo.md
 [Rust Language]: https://rust-lang.org
 
-# Update Git Repositories
+# Update Repository
 
-Update All Git Repositories in a Directory
+Update Tool for Git
 
 ## Features
 
 - Git Pull
+- Git Garbage Collection
 
 ## Build
 
+- [Command Line Documentation][CLIDoc]
 - [Rust][Rust Language]
 
 ```shell
@@ -19,9 +22,9 @@ cargo check
 
 cargo build --release --target x86_64-unknown-linux-gnu
 
-mv ./target/x86_64-unknown-linux-gnu/release/up-repo ./binary
+mv ./target/x86_64-unknown-linux-gnu/release/upt ./binary
 
-./binary/up-repo
+sudo ./binary/up-repo --h
 ```
 
 ## Install System Update Daemon

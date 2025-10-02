@@ -12,7 +12,7 @@ use std::{
 
 // Main Entry Point
 // Clean All Git Repositories in a Directory
-fn main() -> () {
+pub fn clean_repo() -> () {
     let current_directory_path: PathBuf = current_dir().unwrap();
     let current_directory: ReadDir = read_dir(current_directory_path).unwrap();
 
